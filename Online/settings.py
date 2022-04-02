@@ -27,8 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-#ALLOWED_HOSTS = ['online-course-env.eba-zsa3tfwf.us-west-2.elasticbeanstalk.com']
-ALLOWED_HOSTS = ['Online-env.eba-byh6pbvd.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['online-course-env.eba-zsa3tfwf.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -132,7 +131,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'US/Pacific'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
