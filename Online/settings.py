@@ -30,6 +30,7 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = ['Play1.eba-cvmkpqem.us-west-2.elasticbeanstalk.com']
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
