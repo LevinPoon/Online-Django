@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['Shops1.eba-sct7gevh.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['Play1.eba-cvmkpqem.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -141,6 +141,7 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
+#TIME_ZONE ='US/Pacific'
 
 USE_I18N = True
 
@@ -151,6 +152,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
+#STATIC_ROOT = 'static'
 STATIC_ROOT = BASE_DIR /'static'
 STATICFILES_DIRS =[
     'Online/static', 
